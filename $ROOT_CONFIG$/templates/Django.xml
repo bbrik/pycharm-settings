@@ -1,0 +1,11 @@
+<templateSet group="Django">
+  <template name="block" value="{% block $BLOCK$ %}&#10;$END$&#10;{% endblock $BLOCK$ %}" description="{% block %} / {% endblock %}" toReformat="false" toShortenFQNames="true">
+    <variable name="BLOCK" expression="djangoBlock()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="trans" value="{% trans '$END$' %}" description="{% trans '' %}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Django" value="true" />
+    </context>
+  </template>
+</templateSet>
