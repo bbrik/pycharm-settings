@@ -22,5 +22,14 @@
     <property name="SingleInspectionProfilePanel.VERTICAL_DIVIDER_PROPORTION" value="0.5" />
     <property name="SingleInspectionProfilePanel.HORIZONTAL_DIVIDER_PROPORTION" value="0.5" />
     <property name="export.settings.path" value="$APPLICATION_CONFIG_DIR$/settings.jar" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="FindSplitterProportion" value="0.25" />
+    <property name="Copy.OpenInEditor" value="true" />
+    <property name="emmet.last.wrap.abbreviations" value="div" />
+    <property name="emmet.recent.wrap.abbreviations" value="div&#10;fieldset" />
+    <property name="CommitChangeListDialog.SPLITTER_PROPORTION_2" value="0.5" />
+    <property name="CommitChangeListDialog.DETAILS_SHOW_OPTION_" value="false" />
   </component>
 </application>
