@@ -18,4 +18,16 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
+  <template name="slug" value="(?P&lt;$SLUG$&gt;[\w_-]+)" description="slug url part" toReformat="false" toShortenFQNames="true">
+    <variable name="SLUG" expression="" defaultValue="slug" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="pk" value="(?P&lt;$PK$&gt;\d+)" description="pk url part" toReformat="false" toShortenFQNames="true">
+    <variable name="PK" expression="" defaultValue="pk" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
