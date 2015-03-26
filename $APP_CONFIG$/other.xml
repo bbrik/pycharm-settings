@@ -132,6 +132,7 @@
     <option name="recentPaths">
       <list>
         <option value="$USER_HOME$/dev/fbcu" />
+        <option value="$USER_HOME$/dev/django-accounts" />
         <option value="$USER_HOME$/dev/curtacinema" />
         <option value="$USER_HOME$/dev/franco" />
         <option value="$USER_HOME$/dev/terravistadoceu" />
@@ -144,11 +145,6 @@
         <option value="$USER_HOME$/dev/vegano" />
         <option value="$USER_HOME$/dev/financeiro" />
         <option value="$USER_HOME$/.virtualenvs/fbcu/lib/python2.7/site-packages/pjax" />
-      </list>
-    </option>
-    <option name="openPaths">
-      <list>
-        <option value="$USER_HOME$/dev/fbcu" />
       </list>
     </option>
     <option name="lastPath" value="$USER_HOME$/dev/fbcu" />
