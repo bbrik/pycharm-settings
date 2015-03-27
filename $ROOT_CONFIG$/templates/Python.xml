@@ -18,4 +18,16 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
+  <template name="slug" value="r'^(?P&lt;$SLUG$&gt;[\w_-]+)/$'" description="slug url part" toReformat="false" toShortenFQNames="true">
+    <variable name="SLUG" expression="capitalize(String)" defaultValue="slug" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="pk" value="r'^(?P&lt;$PK$&gt;\d+)/$'" description="pk url part" toReformat="false" toShortenFQNames="true">
+    <variable name="PK" expression="" defaultValue="pk" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
