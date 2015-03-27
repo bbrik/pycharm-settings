@@ -147,6 +147,11 @@
         <option value="$USER_HOME$/.virtualenvs/fbcu/lib/python2.7/site-packages/pjax" />
       </list>
     </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/dev/fbcu" />
+      </list>
+    </option>
     <option name="lastPath" value="$USER_HOME$/dev/fbcu" />
   </component>
   <component name="Registry">
